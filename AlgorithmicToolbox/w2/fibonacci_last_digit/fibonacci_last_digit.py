@@ -32,7 +32,8 @@ def get_fibonacci_last_digit_v2(n):
 
 
 def get_fibonacci_last_digit_v3(n):
-    if 0 <= n <= 1000000:
+    # if 0 <= n <= 10000000:
+    if 0 <= n <= 100000000000000:
         if 0 <= n <= 1:
             return n
         _previous, _current = 0, 1
@@ -46,9 +47,9 @@ def get_fibonacci_last_digit_v3(n):
 if __name__ == '__main__':
     input = sys.stdin.read()
     n = int(input)
-    print(get_fibonacci_last_digit_naive(n))
-    print(get_fibonacci_last_digit_v2(n))
-    cProfile.run('get_fibonacci_last_digit_v2(n)')
+    # print(get_fibonacci_last_digit_naive(n))
+    # print(get_fibonacci_last_digit_v2(n))
+    # cProfile.run('get_fibonacci_last_digit_v2(n)')
 
     print(get_fibonacci_last_digit_v3(n))
     cProfile.run('get_fibonacci_last_digit_v3(n)')
