@@ -26,4 +26,4 @@ def calc_fib_v2(n):
 
 n = int(input())
 print(calc_fib_v2(n))
-cProfile.run('calc_fib_v2(n)')
+# cProfile.run('calc_fib_v2(n)')

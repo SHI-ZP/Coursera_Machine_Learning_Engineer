@@ -33,7 +33,7 @@ if __name__ == "__main__":
     # cProfile.run('gcd_naive(a, b)')
 
     print(gcd_v2(a, b))
-    cProfile.run('gcd_v2(a, b)')
+    # cProfile.run('gcd_v2(a, b)')
 
     # 28851538 1183019
     # 17657

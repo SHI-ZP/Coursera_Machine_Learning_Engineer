@@ -62,9 +62,7 @@ if __name__ == '__main__':
     main()
     input = sys.stdin.read()
     from_, to = map(int, input.split())
-
-    print(from_)
-    print(to)
-
+    # print(from_)
+    # print(to)
     # print(fibonacci_partial_sum_naive(from_, to))
     print(fibonacci_partial_sum(from_, to))

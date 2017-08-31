@@ -45,7 +45,7 @@ if __name__ == '__main__':
     # print(lcm_naive(a, b))
 
     print(lcm_v3(a, b))
-    cProfile.run('lcm_v3(a, b)')
+    # cProfile.run('lcm_v3(a, b)')
 
     # 2000000000
     # 1000000001

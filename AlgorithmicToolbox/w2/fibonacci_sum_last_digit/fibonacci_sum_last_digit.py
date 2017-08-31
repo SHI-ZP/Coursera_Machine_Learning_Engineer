@@ -81,8 +81,8 @@ def main():
     fibonacci_sum_last_digit_v2(99999999999991)
 
 if __name__ == '__main__':
-    main()
-    # input = sys.stdin.read()
-    # n = int(input)
-    # print(fibonacci_sum_last_digit_v2(n))
+    # main()
+    input = sys.stdin.read()
+    n = int(input)
+    print(fibonacci_sum_last_digit_v2(n))
     # cProfile.run('fibonacci_sum_last_digit_v2(n)')

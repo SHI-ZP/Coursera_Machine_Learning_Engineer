@@ -52,4 +52,4 @@ if __name__ == '__main__':
     # cProfile.run('get_fibonacci_last_digit_v2(n)')
 
     print(get_fibonacci_last_digit_v3(n))
-    cProfile.run('get_fibonacci_last_digit_v3(n)')
+    # cProfile.run('get_fibonacci_last_digit_v3(n)')
