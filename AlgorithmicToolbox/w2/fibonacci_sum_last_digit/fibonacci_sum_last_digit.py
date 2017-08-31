@@ -73,16 +73,16 @@ def fibonacci_sum_last_digit_v2(n):
 def main():
     print(fibonacci_sum_naive(0))
     print(fibonacci_sum_naive(1))
-    print(fibonacci_sum_naive(2))
+    print(fibonacci_sum_naive(7))
 
     print(fibonacci_sum_last_digit_v2(0))
     print(fibonacci_sum_last_digit_v2(1))
-    print(fibonacci_sum_last_digit_v2(2))
+    print(fibonacci_sum_last_digit_v2(7))
     fibonacci_sum_last_digit_v2(99999999999991)
 
 if __name__ == '__main__':
-    # main()
-    input = sys.stdin.read()
-    n = int(input)
-    print(fibonacci_sum_last_digit_v2(n))
-    cProfile.run('fibonacci_sum_last_digit_v2(n)')
+    main()
+    # input = sys.stdin.read()
+    # n = int(input)
+    # print(fibonacci_sum_last_digit_v2(n))
+    # cProfile.run('fibonacci_sum_last_digit_v2(n)')
