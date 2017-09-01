@@ -37,15 +37,10 @@ def gcd_v2(a, b):
 def lcm_v3(a, b):
     if LOWER <= a <= UPPER and LOWER <= b <= UPPER:
         _gcd = gcd_v2(a, b)
-        return a * b / _gcd
+        return a * b // _gcd
 
 if __name__ == '__main__':
     input = sys.stdin.read()
     a, b = map(int, input.split())
     # print(lcm_naive(a, b))
-
     print(lcm_v3(a, b))
-    # cProfile.run('lcm_v3(a, b)')
-
-    # 2000000000
-    # 1000000001

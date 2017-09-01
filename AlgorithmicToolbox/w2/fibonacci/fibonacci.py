@@ -11,6 +11,9 @@ def calc_fib(n):
 
 def calc_fib_v2(n):
     if 0 <= n <= 45:
+        if n <= 1:
+            return n
+
         result = []
         for i in range(n):
             if 0 == i:
