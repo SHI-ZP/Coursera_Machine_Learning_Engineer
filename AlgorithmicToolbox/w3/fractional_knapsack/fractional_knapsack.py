@@ -18,7 +18,7 @@ def get_optimal_value(capacity, weights, values):
         else:
             value += _current_capacity * max(_item_dict.keys())
             _current_capacity = 0
-        print(_current_capacity)
+        # print(_current_capacity)
 
     return value
 
